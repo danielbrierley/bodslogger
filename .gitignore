@@ -1,5 +1,7 @@
 __pycache__/
 *.exe
 
+buslog.db
+
 config.py
 key.py
