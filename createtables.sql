@@ -31,3 +31,4 @@ CREATE TABLE buslog (
 );
 
 CREATE INDEX idx_operator_vehicle_updatedTime ON buslog (operator, vehicle, updatedTime);
+CREATE INDEX idx_operator ON buslog (operator);
